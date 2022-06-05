@@ -22,15 +22,15 @@ Unrelated to photos, but the bot can also show information of a users profile.
 2. Discord Bot Token
 
 ## 🔌 Installation
-Add your bot token to `config.json`, you can also change the prefix if you like (Bot icon provided in media as `icon.png`). Then, use either NPM or Yarn to install all dependencies in the project and build the project. For this example I will be using Yarn.
+Add your bot token to `src/config.json`, you can also change the prefix if you like (Bot icon provided in media as `icon.png`). Then, use either NPM or Yarn to install all dependencies in the project and build the project. For this example I will be using Yarn.
 ```bash
 # Install all dependancies
 yarn install
 
-# Build the project using typescript
+# Build the project using typescript (Do this after adding the token)
 yarn build
 
-# Run the project (Do this after adding the token.)
+# Run the project
 yarn start
 ```
 
